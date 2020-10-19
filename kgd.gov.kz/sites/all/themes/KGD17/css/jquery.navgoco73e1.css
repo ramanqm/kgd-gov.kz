@@ -1,0 +1,137 @@
+.navservice, .navservice ul, .navservice li {
+    list-style: none;
+    padding: 0 !important;
+}
+
+.navservice ul {
+    padding: 0;
+    margin: 15px 10px;
+}
+
+.navservice {
+    padding: 4px;
+    margin: 0px;
+}
+
+.navservice li {
+    margin: 4px 0;
+    border: 1px solid #ededed;
+}
+
+.navservice li ul {
+    padding-left: 0;
+    background: none;
+    margin: 15px 10px;
+}
+
+.navservice li ul ul {
+    display: block !important;
+    margin: 10px 10px;
+    padding: 0 0 0 20px !important;
+}
+
+.navservice li ul ul li {
+    list-style: disc;
+    margin-top: 10px;
+    padding:0 40px 0 0 !important;
+    border: none;
+}
+.navservice li ul > a, .navservice li ul span > a{
+    padding: 0;
+    height: auto;
+    line-height: normal;
+    font-weight: normal;
+}
+/*.navservice li ul > p, strong, b, i {*/
+.navservice li ul > p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navservice li ul > span > img {
+    float: left;
+}
+
+.navservice li ul > span > a {
+    padding-left: 10px;
+    line-height: 10px;
+    display:inline;
+}
+
+.navservice li ul > span{
+    line-height: 1.4em;
+    display: block;
+}
+
+.navservice li li {
+    margin: 2px 0;
+}
+
+.navservice a {
+    color: #094e8f;
+    font-weight: bold;
+    display: block;
+    outline: none;
+    height: 50px;
+    background: #fefefe; /* Old browsers */
+    background: -moz-linear-gradient(top, #fefefe 31%, #e6e9e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(31%,#fefefe), color-stop(100%,#e6e9e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fefefe 31%,#e6e9e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fefefe 31%,#e6e9e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fefefe 31%,#e6e9e5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #fefefe 31%,#e6e9e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e6e9e5',GradientType=0 ); /* IE6-9 */
+}
+.navservice li ul a, .navservice li ul a:hover {
+    background: none;
+}
+
+.navservice li a span {
+    float: right;
+    font-size: 17px;
+}
+
+.navservice li a:hover > span {
+    color: #094e8f;
+}
+
+.navservice li a span:after {
+  font: normal normal normal 18px/1 'FontAwesome';
+  display: block;
+  content: '\f107';
+}
+.navservice li.open a span:after {
+  font: normal normal normal 18px/1 'FontAwesome';
+  display: block;
+  content: '\f106';
+}
+
+.navservice a:hover, .navservice li.active a {
+    background-color: #5D5D5D;
+    color: #094e8f;
+}
+
+.navservice li.active a  {
+    background-color: #4D90FE;
+}
+
+.navservice > li a {
+    font-size: 14px;
+    line-height: 43px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+p.external {
+    text-align: right;
+    line-height: 0 !important;
+    padding-bottom: 1.4em;
+}
+p.external a {
+    color: #6d7985;
+    font-size: 14px;
+    font-weight: bold;
+}
+p.external a:hover {
+    color: #328cd2;
+    font-weight: bold;
+}

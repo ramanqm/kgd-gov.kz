@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+kgd.gov.kz	TRUE	/	FALSE	1999999999	cookiesession1	678B76A6GIJLMOPRTVWYZBCDFGHI3C6E
+zero.kz	TRUE	/	FALSE	1999999999	client_cc	HTTrack+3.0
+

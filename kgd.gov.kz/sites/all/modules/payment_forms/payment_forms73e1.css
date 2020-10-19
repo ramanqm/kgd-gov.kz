@@ -1,0 +1,49 @@
+.form-payment {
+  max-width: 100%;
+}
+.form-payment input[type=button], .form-payment input[type=submit], .form-payment .form-print {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.form-payment input[type=text], .form-payment select, .form-payment option {
+  max-width: 100%;
+}
+.form-payment select, .form-payment option {
+  width: 770px;
+}
+.form-payment input.error[type=text] {
+  border-color: red;
+}
+.form-payment #result {
+  padding-top: 10px;
+}
+.form-payment table {
+  margin: 10px 0;
+}
+.form-payment .fine, .form-payment .nt {
+  color: red;
+}
+.form-payment .fine {
+  padding-bottom: 10px;
+}
+
+.form-payment-ticket input[type=button], .form-payment-ticket input[type=submit] {
+  margin-right: 1em;
+}
+.form-payment-ticket table select {
+  width: 300px !important;
+}
+.form-payment-ticket table .form-text {
+  width: 150px !important;
+}
+.form-payment-ticket table, .form-payment-ticket td, .form-payment-ticket th {
+  border: 1px solid grey;
+  padding: 5px;
+  border-collapse: collapse;
+}
+.form-payment-ticket th {
+  font-weight: bold;
+}
+.form-payment-ticket table .form-item {
+  margin: 0;
+}
