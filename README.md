@@ -1,0 +1,1 @@
+# kgd-gov.kz
